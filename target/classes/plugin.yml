@@ -1,0 +1,11 @@
+name: AdminGUI
+main: io.github.shparki.adminGUI.AdminGUI
+version: 1.0.0a
+author: Shparki
+description: Combines *some* admin functionality into a small, convienent GUI
+commands:
+  admingui:
+    description: Open the GUI to show functionality accessible by Admins
+    usage: /admingui
+    permission: admingui.use
+    permission-message: Tryna do admins stuffs without being admin, eh? Think. Again.
